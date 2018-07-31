@@ -1,2 +1,2 @@
-# nodejs soucketio sample
-sample node js and souket io with client
+# node js and Socket io sample chat with client
+ node js and Socket io sample chat with client
