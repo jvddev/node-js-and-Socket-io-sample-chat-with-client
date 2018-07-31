@@ -1,2 +1,2 @@
-# nodejs_soucketio_sample
+# nodejs soucketio sample
 sample node js and souket io with client
