@@ -1,4 +1,5 @@
-module.exports=(app)=>{
+module.exports = (app) => {
 
+    require('./serverChat')(app);
 
 };
