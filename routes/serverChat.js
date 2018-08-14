@@ -21,6 +21,21 @@ module.exports=(app)=>{
             io.sockets.emit('chat', data);
         });
 
+
+
+        socket.on('isTyping', function(data){
+
+            console.log('isTyping....');
+
+            io.sockets.emit('isTyping', data);
+        });
+        socket.on('closeTyping', function(data){
+
+            console.log('closeTyping....');
+
+            io.sockets.emit('closeTyping', data);
+        });
+
     });
 };
 
